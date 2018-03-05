@@ -8,11 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		CF4399F1204CD89400A9453A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4399F0204CD89400A9453A /* AppDelegate.swift */; };
-		CF4399F3204CD89400A9453A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4399F2204CD89400A9453A /* ViewController.swift */; };
 		CF4399F6204CD89400A9453A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4399F4204CD89400A9453A /* Main.storyboard */; };
 		CF4399F8204CD89400A9453A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4399F7204CD89400A9453A /* Assets.xcassets */; };
-		CF4399FB204CD89400A9453A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4399F9204CD89400A9453A /* LaunchScreen.storyboard */; };
 		CF439A06204CD89400A9453A /* CZQTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF439A05204CD89400A9453A /* CZQTVTests.swift */; };
+		CF439A1C204CDBB100A9453A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF439A14204CDBB100A9453A /* HomeViewController.swift */; };
+		CF439A1D204CDBB100A9453A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF439A17204CDBB100A9453A /* MainViewController.swift */; };
+		CF439A1E204CDBB100A9453A /* XMGNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF439A18204CDBB100A9453A /* XMGNavigationController.swift */; };
+		CF439A1F204CDBB100A9453A /* RankViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF439A1B204CDBB100A9453A /* RankViewController.swift */; };
+		CF439A21204CDC0700A9453A /* Rank.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF439A20204CDC0700A9453A /* Rank.storyboard */; };
+		CF439A23204CDC1300A9453A /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF439A22204CDC1300A9453A /* Profile.storyboard */; };
+		CF439A25204CE1ED00A9453A /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF439A24204CE1ED00A9453A /* Home.storyboard */; };
+		CF439A27204CE23D00A9453A /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF439A26204CE23D00A9453A /* Discover.storyboard */; };
+		CF439A2A204CED2700A9453A /* UIColor-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF439A29204CED2700A9453A /* UIColor-Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +35,21 @@
 /* Begin PBXFileReference section */
 		CF4399ED204CD89400A9453A /* CZQTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZQTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF4399F0204CD89400A9453A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CF4399F2204CD89400A9453A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CF4399F5204CD89400A9453A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF4399F7204CD89400A9453A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CF4399FA204CD89400A9453A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF4399FC204CD89400A9453A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF439A01204CD89400A9453A /* CZQTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZQTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF439A05204CD89400A9453A /* CZQTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CZQTVTests.swift; sourceTree = "<group>"; };
 		CF439A07204CD89400A9453A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF439A14204CDBB100A9453A /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CF439A17204CDBB100A9453A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		CF439A18204CDBB100A9453A /* XMGNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMGNavigationController.swift; sourceTree = "<group>"; };
+		CF439A1B204CDBB100A9453A /* RankViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankViewController.swift; sourceTree = "<group>"; };
+		CF439A20204CDC0700A9453A /* Rank.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Rank.storyboard; sourceTree = "<group>"; };
+		CF439A22204CDC1300A9453A /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		CF439A24204CE1ED00A9453A /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		CF439A26204CE23D00A9453A /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		CF439A29204CED2700A9453A /* UIColor-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +91,10 @@
 		CF4399EF204CD89400A9453A /* CZQTV */ = {
 			isa = PBXGroup;
 			children = (
+				CF439A10204CDBB100A9453A /* Classes */,
 				CF4399F0204CD89400A9453A /* AppDelegate.swift */,
-				CF4399F2204CD89400A9453A /* ViewController.swift */,
 				CF4399F4204CD89400A9453A /* Main.storyboard */,
 				CF4399F7204CD89400A9453A /* Assets.xcassets */,
-				CF4399F9204CD89400A9453A /* LaunchScreen.storyboard */,
 				CF4399FC204CD89400A9453A /* Info.plist */,
 			);
 			path = CZQTV;
@@ -94,6 +107,86 @@
 				CF439A07204CD89400A9453A /* Info.plist */,
 			);
 			path = CZQTVTests;
+			sourceTree = "<group>";
+		};
+		CF439A10204CDBB100A9453A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CF439A11204CDBB100A9453A /* Base */,
+				CF439A12204CDBB100A9453A /* Discover */,
+				CF439A13204CDBB100A9453A /* Home */,
+				CF439A15204CDBB100A9453A /* Main */,
+				CF439A19204CDBB100A9453A /* Profile */,
+				CF439A1A204CDBB100A9453A /* Rank */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CF439A11204CDBB100A9453A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CF439A12204CDBB100A9453A /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				CF439A26204CE23D00A9453A /* Discover.storyboard */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		CF439A13204CDBB100A9453A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CF439A24204CE1ED00A9453A /* Home.storyboard */,
+				CF439A14204CDBB100A9453A /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CF439A15204CDBB100A9453A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				CF439A28204CED2700A9453A /* Extension */,
+				CF439A16204CDBB100A9453A /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CF439A16204CDBB100A9453A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CF439A17204CDBB100A9453A /* MainViewController.swift */,
+				CF439A18204CDBB100A9453A /* XMGNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CF439A19204CDBB100A9453A /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				CF439A22204CDC1300A9453A /* Profile.storyboard */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		CF439A1A204CDBB100A9453A /* Rank */ = {
+			isa = PBXGroup;
+			children = (
+				CF439A20204CDC0700A9453A /* Rank.storyboard */,
+				CF439A1B204CDBB100A9453A /* RankViewController.swift */,
+			);
+			path = Rank;
+			sourceTree = "<group>";
+		};
+		CF439A28204CED2700A9453A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CF439A29204CED2700A9453A /* UIColor-Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,8 +272,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF4399FB204CD89400A9453A /* LaunchScreen.storyboard in Resources */,
 				CF4399F8204CD89400A9453A /* Assets.xcassets in Resources */,
+				CF439A23204CDC1300A9453A /* Profile.storyboard in Resources */,
+				CF439A25204CE1ED00A9453A /* Home.storyboard in Resources */,
+				CF439A21204CDC0700A9453A /* Rank.storyboard in Resources */,
+				CF439A27204CE23D00A9453A /* Discover.storyboard in Resources */,
 				CF4399F6204CD89400A9453A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,8 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF4399F3204CD89400A9453A /* ViewController.swift in Sources */,
+				CF439A1F204CDBB100A9453A /* RankViewController.swift in Sources */,
+				CF439A2A204CED2700A9453A /* UIColor-Extension.swift in Sources */,
+				CF439A1E204CDBB100A9453A /* XMGNavigationController.swift in Sources */,
+				CF439A1D204CDBB100A9453A /* MainViewController.swift in Sources */,
 				CF4399F1204CD89400A9453A /* AppDelegate.swift in Sources */,
+				CF439A1C204CDBB100A9453A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,14 +329,6 @@
 				CF4399F5204CD89400A9453A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CF4399F9204CD89400A9453A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CF4399FA204CD89400A9453A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -353,14 +445,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X98AC2E273;
 				INFOPLIST_FILE = CZQTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.airchina.CZQTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -368,14 +462,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X98AC2E273;
 				INFOPLIST_FILE = CZQTV/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.airchina.CZQTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
