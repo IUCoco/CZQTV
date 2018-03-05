@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF4399F1204CD89400A9453A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4399F0204CD89400A9453A /* AppDelegate.swift */; };
+		CF4399F3204CD89400A9453A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4399F2204CD89400A9453A /* ViewController.swift */; };
+		CF4399F6204CD89400A9453A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4399F4204CD89400A9453A /* Main.storyboard */; };
+		CF4399F8204CD89400A9453A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF4399F7204CD89400A9453A /* Assets.xcassets */; };
+		CF4399FB204CD89400A9453A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF4399F9204CD89400A9453A /* LaunchScreen.storyboard */; };
+		CF439A06204CD89400A9453A /* CZQTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF439A05204CD89400A9453A /* CZQTVTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF439A02204CD89400A9453A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF4399E5204CD89400A9453A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF4399EC204CD89400A9453A;
+			remoteInfo = CZQTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF4399ED204CD89400A9453A /* CZQTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZQTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF4399F0204CD89400A9453A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF4399F2204CD89400A9453A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF4399F5204CD89400A9453A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF4399F7204CD89400A9453A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF4399FA204CD89400A9453A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF4399FC204CD89400A9453A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF439A01204CD89400A9453A /* CZQTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZQTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF439A05204CD89400A9453A /* CZQTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CZQTVTests.swift; sourceTree = "<group>"; };
+		CF439A07204CD89400A9453A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF4399EA204CD89400A9453A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4399FE204CD89400A9453A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF4399E4204CD89400A9453A = {
+			isa = PBXGroup;
+			children = (
+				CF4399EF204CD89400A9453A /* CZQTV */,
+				CF439A04204CD89400A9453A /* CZQTVTests */,
+				CF4399EE204CD89400A9453A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF4399EE204CD89400A9453A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF4399ED204CD89400A9453A /* CZQTV.app */,
+				CF439A01204CD89400A9453A /* CZQTVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF4399EF204CD89400A9453A /* CZQTV */ = {
+			isa = PBXGroup;
+			children = (
+				CF4399F0204CD89400A9453A /* AppDelegate.swift */,
+				CF4399F2204CD89400A9453A /* ViewController.swift */,
+				CF4399F4204CD89400A9453A /* Main.storyboard */,
+				CF4399F7204CD89400A9453A /* Assets.xcassets */,
+				CF4399F9204CD89400A9453A /* LaunchScreen.storyboard */,
+				CF4399FC204CD89400A9453A /* Info.plist */,
+			);
+			path = CZQTV;
+			sourceTree = "<group>";
+		};
+		CF439A04204CD89400A9453A /* CZQTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF439A05204CD89400A9453A /* CZQTVTests.swift */,
+				CF439A07204CD89400A9453A /* Info.plist */,
+			);
+			path = CZQTVTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF4399EC204CD89400A9453A /* CZQTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF439A0A204CD89400A9453A /* Build configuration list for PBXNativeTarget "CZQTV" */;
+			buildPhases = (
+				CF4399E9204CD89400A9453A /* Sources */,
+				CF4399EA204CD89400A9453A /* Frameworks */,
+				CF4399EB204CD89400A9453A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CZQTV;
+			productName = CZQTV;
+			productReference = CF4399ED204CD89400A9453A /* CZQTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF439A00204CD89400A9453A /* CZQTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF439A0D204CD89400A9453A /* Build configuration list for PBXNativeTarget "CZQTVTests" */;
+			buildPhases = (
+				CF4399FD204CD89400A9453A /* Sources */,
+				CF4399FE204CD89400A9453A /* Frameworks */,
+				CF4399FF204CD89400A9453A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF439A03204CD89400A9453A /* PBXTargetDependency */,
+			);
+			name = CZQTVTests;
+			productName = CZQTVTests;
+			productReference = CF439A01204CD89400A9453A /* CZQTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF4399E5204CD89400A9453A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = zjairchina;
+				TargetAttributes = {
+					CF4399EC204CD89400A9453A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CF439A00204CD89400A9453A = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF4399EC204CD89400A9453A;
+					};
+				};
+			};
+			buildConfigurationList = CF4399E8204CD89400A9453A /* Build configuration list for PBXProject "CZQTV" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF4399E4204CD89400A9453A;
+			productRefGroup = CF4399EE204CD89400A9453A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF4399EC204CD89400A9453A /* CZQTV */,
+				CF439A00204CD89400A9453A /* CZQTVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF4399EB204CD89400A9453A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4399FB204CD89400A9453A /* LaunchScreen.storyboard in Resources */,
+				CF4399F8204CD89400A9453A /* Assets.xcassets in Resources */,
+				CF4399F6204CD89400A9453A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4399FF204CD89400A9453A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF4399E9204CD89400A9453A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF4399F3204CD89400A9453A /* ViewController.swift in Sources */,
+				CF4399F1204CD89400A9453A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF4399FD204CD89400A9453A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF439A06204CD89400A9453A /* CZQTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF439A03204CD89400A9453A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF4399EC204CD89400A9453A /* CZQTV */;
+			targetProxy = CF439A02204CD89400A9453A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF4399F4204CD89400A9453A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF4399F5204CD89400A9453A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF4399F9204CD89400A9453A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF4399FA204CD89400A9453A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF439A08204CD89400A9453A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF439A09204CD89400A9453A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF439A0B204CD89400A9453A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X98AC2E273;
+				INFOPLIST_FILE = CZQTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.airchina.CZQTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF439A0C204CD89400A9453A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X98AC2E273;
+				INFOPLIST_FILE = CZQTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.airchina.CZQTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF439A0E204CD89400A9453A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X98AC2E273;
+				INFOPLIST_FILE = CZQTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.airchina.CZQTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CZQTV.app/CZQTV";
+			};
+			name = Debug;
+		};
+		CF439A0F204CD89400A9453A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X98AC2E273;
+				INFOPLIST_FILE = CZQTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.airchina.CZQTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CZQTV.app/CZQTV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF4399E8204CD89400A9453A /* Build configuration list for PBXProject "CZQTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF439A08204CD89400A9453A /* Debug */,
+				CF439A09204CD89400A9453A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF439A0A204CD89400A9453A /* Build configuration list for PBXNativeTarget "CZQTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF439A0B204CD89400A9453A /* Debug */,
+				CF439A0C204CD89400A9453A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF439A0D204CD89400A9453A /* Build configuration list for PBXNativeTarget "CZQTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF439A0E204CD89400A9453A /* Debug */,
+				CF439A0F204CD89400A9453A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF4399E5204CD89400A9453A /* Project object */;
+}
